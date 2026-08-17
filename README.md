@@ -31,11 +31,10 @@ The system supports:
 - Seaborn
 - Pyttsx3
 
-# Project Structure
+## Project Structure
 
+```text
 sign-language-recognition/
-│
-├── dataset/
 │
 ├── sign_language_recognition.py
 ├── train_model.py
@@ -47,8 +46,9 @@ sign-language-recognition/
 │
 ├── sign_language_recognition_analysis.ipynb
 ├── requirements.txt
+├── .gitignore
 └── README.md
-
+```
 
 ## How It Works
 
