@@ -91,9 +91,27 @@ The trained model achieved the following results on the test set:
 
 ## Installation
 
+### 1. Clone the Repository
+
+Clone the project from GitHub:
+
+```bash
+git clone https://github.com/waad-mohamed25/sign-language-recognition.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd sign-language-recognition
+```
+
+### 2. Install Dependencies
+
 Install the required Python packages using:
 
+```bash
 pip install -r requirements.txt
+```
 
 Python 3.12 is recommended for this project.
 
@@ -103,15 +121,25 @@ The trained model is already included in the project, so the recognition applica
 
 Run:
 
+```bash
 python sign_language_recognition.py
-
+```
 
 On Windows, if multiple Python versions are installed:
 
+```bash
 py -3.12 sign_language_recognition.py
-
+```
 
 The application will load the trained model and open the webcam.
+
+### Alternative: Download ZIP
+
+If you do not have Git installed, you can download the repository as a ZIP file:
+
+**GitHub → Code → Download ZIP**
+
+Extract the ZIP file, open the extracted project folder in a terminal, install the dependencies using the commands above, and run the application.
 
 ## Training the Model
 
